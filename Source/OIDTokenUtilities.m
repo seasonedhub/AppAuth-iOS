@@ -54,6 +54,12 @@ static NSString *const kFormUrlEncodedAllowedCharacters =
   return sha256Verifier;
 }
 
+  //SSND Note: Appears this was the original name of the function and
+  //It got fixed somewhere between v0.4.x and 0.95.1
++ (NSData *)sha265:(NSString *)inputString {
+  return [OIDTokenUtilities sha256:inputString];
+}
+
 + (NSString *)redact:(NSString *)inputString {
   if (inputString == nil) {
     return nil;

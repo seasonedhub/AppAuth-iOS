@@ -50,6 +50,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSData *)sha256:(NSString *)inputString;
 
+  /*! @brief Restore Typo from previous version. SHA256 hashes the input string.
+   @param inputString The input string.
+   @return The SHA256 data.
+   */
++ (NSData *)sha265:(NSString *)inputString;
+
+  
 /*! @brief Truncated intput string after first 6 characters followed by ellipses
     @param inputString The input string.
     @return Truncated string.

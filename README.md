@@ -1,3 +1,4 @@
+
 #Seasoned's AppAuth-iOS Fork
 
 Forked to fix Crossroad's OAuth Implementation so that it is compatible with HotSchedules' Oauth Server Implementation.
@@ -6,7 +7,6 @@ Token Exchanges on HS's servers must send client secrets over POST requests form
 
 [Github Issue discussing the problem](https://github.com/openid/AppAuth-iOS/issues/276#issuecomment-410873214)
 
+[Original Repo/Documentation](https://github.com/openid/AppAuth-iOS)
 
 ![AppAuth for iOS and macOS](https://rawgit.com/openid/AppAuth-iOS/master/appauth_lockup.svg)
-
-[Original Repo/Documentation](https://github.com/openid/AppAuth-iOS)
